@@ -1,0 +1,60 @@
+
+body {
+    background-image: url('WhatsApp Image 2024-02-26 at 09.56.20.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Style the top bar */
+.top-bar-inner {
+    background-color: #46468c;
+    padding: 10px;
+}
+
+.top-bar-nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.top-bar-nav li {
+    margin-right: 20px;
+}
+
+.top-bar-nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Style the heading */
+h1 {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 3rem;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgb(70, 70, 140);
+}
+
+/* Style the footer */
+.footer {
+    background-color: #46468c;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.card-img-top {
+    width: 10%;
+    height: 10px; /* Set the desired height here */
+    object-fit: cover;
+}
